@@ -10,7 +10,7 @@ driver.maximize_window()
 wait = WebDriverWait(driver, 10)
 
 # Открытие страницы формы
-driver.get("https://docs.google.com/forms/d/e/1FAIpQLSfysbvDqQr-Dh9SriJ14NeZTbe4BVCE8a0fUycy88RZxLeG0g/viewform")
+driver.get("https://docs.google.com/forms")
 
 # Функция для проверки всех полей формы на одной странице
 def check_form(driver):
